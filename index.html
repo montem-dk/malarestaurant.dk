@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MáLà Food — Autentisk Sichuan · Frederiksberg</title>
+  <meta name="description" content="Autentisk Sichuan-restaurant på Frederiksberg. Håndlavede nudler, dumplings og baos. Bestil takeaway via Wolt eller ring til os.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://mealomedia.azureedge.net/media/25063/cropped-design-uden-navn-1-66x66.png?quality=70&height=32" type="image/png">
+</head>
+<body>
+
+  <!-- ========== STICKY HEADER ========== -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+      <a href="#" class="header-logo">MáLà</a>
+      <a href="https://wolt.com/da/dnk/copenhagen/restaurant/mala-food" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Bestil takeaway</a>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <picture>
+        <source media="(max-width: 768px)" srcset="https://mealomedia.azureedge.net/media/28077/img_3706.jpg?quality=70&mode=crop&width=900">
+        <img src="https://mealomedia.azureedge.net/media/28077/img_3706.jpg?quality=70&mode=crop&width=1920" alt="Autentisk Sichuan nudelret" loading="eager">
+      </picture>
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="hero-badge-star">★</span> 8.2/10 på Wolt
+      </div>
+      <h1 class="hero-title">Autentisk Sichuan</h1>
+      <p class="hero-subtitle">Håndlavede nudler &amp; dumplings · Frederiksberg</p>
+      <a href="#menu" class="btn btn-primary">Se menuen</a>
+    </div>
+  </section>
+
+  <!-- ========== SOCIAL PROOF STRIP ========== -->
+  <section class="social-proof">
+    <div class="container">
+      <div class="proof-grid">
+        <div class="proof-item fade-in">
+          <span class="proof-value">8.2/10</span>
+          <span class="proof-label">Wolt Rating</span>
+        </div>
+        <div class="proof-divider"></div>
+        <div class="proof-item fade-in">
+          <span class="proof-value">Autentisk</span>
+          <span class="proof-label">Sichuan-køkken</span>
+        </div>
+        <div class="proof-divider"></div>
+        <div class="proof-item fade-in">
+          <span class="proof-value">Dagligt</span>
+          <span class="proof-label">Håndlavede nudler</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MENU SHOWCASE ========== -->
+  <section class="menu-section" id="menu">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">Menuen</span>
+        <h2 class="section-title">Smag Sichuan</h2>
+        <p class="section-desc">Fra håndtrukne nudler til crispy dumplings — alt lavet fra bunden hver dag.</p>
+      </div>
+
+      <!-- Menu Tabs -->
+      <div class="menu-tabs fade-in">
+        <button class="menu-tab active" data-filter="all">Alle</button>
+        <button class="menu-tab" data-filter="snacks">Snacks</button>
+        <button class="menu-tab" data-filter="nudler">Nudler</button>
+        <button class="menu-tab" data-filter="dumplings">Dumplings</button>
+      </div>
+
+      <!-- Swiper -->
+      <div class="swiper menu-swiper fade-in">
+        <div class="swiper-wrapper">
+
+          <!-- NUDLER -->
+          <div class="swiper-slide" data-category="nudler">
+            <div class="menu-card">
+              <div class="menu-card-img">
+                <img src="https://imageproxy.wolt.com/assets/689d8adb3f64c1b826dce29d" alt="Beef Brisket Noodle Soup" loading="lazy">
+              </div>
+              <div class="menu-card-body">
+                <h3>Beef Brisket Noodle Soup</h3>
+                <span class="menu-card-price">159 kr</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide" data-category="nudler">
+            <div class="menu-card">
+              <div class="menu-card-img">
+                <img src="https://imageproxy.wolt.com/assets/689d8adb3f64c1b826dce2a1" alt="Dandan Noodles" loading="lazy">
+              </div>
+              <div class="menu-card-body">
+                <h3>Dandan Noodles</h3>
+                <span class="menu-card-price">149 kr</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide" data-category="nudler">
+            <div class="menu-card">
+              <div class="menu-card-img">
+                <img src="https://imageproxy.wolt.com/assets/689d8adb3f64c1b826dce2ad" alt="Pea Minced Pork Noodles" loading="lazy">
+              </div>
+              <div class="menu-card-body">
+                <h3>Pea Minced Pork Noodles</h3>
+                <span class="menu-card-price">159 kr</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide" data-category="nudler">
+            <div class="menu-card">
+              <div class="menu-card-img">
+                <img src="https://imageproxy.wolt.com/assets/689d8adb3f64c1b826dce29e" alt="Chongqing Noodles" loading="lazy">
+              </div>
+              <div class="menu-card-body">
+                <h3>Chongqing Noodles</h3>
+                <span class="menu-card-price">139 kr</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide" data-category="nudler">
+            <div class="menu-card">
+              <div class="menu-card-img">
+                <img src="https://imageproxy.wolt.com/assets/689d8adb3f64c1b826dce2b2" alt="Scallion Oil Noodles" loading="lazy">
+              </div>
+              <div class="menu-card-body">
+                <div class="menu-card-tag">Ikke stærk</div>
+                <h3>Scallion Oil Noodles</h3>
+                <span class="menu-card-price">149 kr</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide" data-category="nudler">
+            <div class="menu-card">
+              <div class="menu-card-img">
+                <img src="https://imageproxy.wolt.com/assets/689d8adb3f64c1b826dce2b5" alt="Spicy Sour Glass Noodle Soup" loading="lazy">
+              </div>
+              <div class="menu-card-body">
+                <div class="menu-card-tag">Vegan</div>
+                <h3>Spicy Sour Glass Noodle Soup</h3>
+                <span class="menu-card-price">149 kr</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- SNACKS -->
+          <div class="swiper-slide" data-category="snacks">
+            <div class="menu-card">
+              <div class="menu-card-img">
+                <img src="https://imageproxy.wolt.com/assets/689d8adb3f64c1b826dce2a0" alt="Crushed Cucumber Salad" loading="lazy">
+              </div>
+              <div class="menu-card-body">
+                <div class="menu-card-tag">Vegan</div>
+                <h3>Crushed Cucumber Salad</h3>
+                <span class="menu-card-price">79 kr</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide" data-category="snacks">
+            <div class="menu-card">
+              <div class="menu-card-img">
+                <img src="https://imageproxy.wolt.com/assets/689d8adb3f64c1b826dce2b3" alt="Sichuan Beef Mini Burger" loading="lazy">
+              </div>
+              <div class="menu-card-body">
+                <h3>Sichuan Beef Mini Burger</h3>
+                <span class="menu-card-price">55 kr</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide" data-category="snacks">
+            <div class="menu-card">
+              <div class="menu-card-img">
+                <img src="https://imageproxy.wolt.com/assets/689d8adb3f64c1b826dce2a5" alt="MáLà Beef" loading="lazy">
+              </div>
+              <div class="menu-card-body">
+                <h3>MáLà Beef</h3>
+                <span class="menu-card-price">89 kr</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide" data-category="snacks">
+            <div class="menu-card">
+              <div class="menu-card-img">
+                <img src="https://imageproxy.wolt.com/assets/689d8adb3f64c1b826dce2b4" alt="Sichuan Chicken w. bones" loading="lazy">
+              </div>
+              <div class="menu-card-body">
+                <h3>Sichuan Chicken</h3>
+                <span class="menu-card-price">89 kr</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- DUMPLINGS -->
+          <div class="swiper-slide" data-category="snacks dumplings">
+            <div class="menu-card">
+              <div class="menu-card-img">
+                <img src="https://imageproxy.wolt.com/assets/689d8adb3f64c1b826dce29f" alt="Crispy Dumplings" loading="lazy">
+              </div>
+              <div class="menu-card-body">
+                <h3>Crispy Dumplings</h3>
+                <span class="menu-card-price">55 kr</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide" data-category="snacks dumplings">
+            <div class="menu-card">
+              <div class="menu-card-img">
+                <img src="https://imageproxy.wolt.com/assets/689d8adb3f64c1b826dce2a7" alt="MáLà Wontons" loading="lazy">
+              </div>
+              <div class="menu-card-body">
+                <h3>MáLà Wontons</h3>
+                <span class="menu-card-price">89 kr</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide" data-category="dumplings">
+            <div class="menu-card">
+              <div class="menu-card-img">
+                <img src="https://imageproxy.wolt.com/assets/689d8adb3f64c1b826dce2a6" alt="MáLà Dumplings of the day" loading="lazy">
+              </div>
+              <div class="menu-card-body">
+                <h3>MáLà Dumplings of the Day</h3>
+                <span class="menu-card-price">69 kr</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide" data-category="dumplings">
+            <div class="menu-card">
+              <div class="menu-card-img">
+                <img src="https://imageproxy.wolt.com/assets/689d8adb3f64c1b826dce2a2" alt="Dumplings Bone Soup" loading="lazy">
+              </div>
+              <div class="menu-card-body">
+                <h3>Dumplings Bone Soup</h3>
+                <span class="menu-card-price">159 kr</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide" data-category="dumplings">
+            <div class="menu-card">
+              <div class="menu-card-img">
+                <img src="https://imageproxy.wolt.com/assets/689d8adb3f64c1b826dce2b7" alt="Wonton Bone Soup" loading="lazy">
+              </div>
+              <div class="menu-card-body">
+                <h3>Wonton Bone Soup</h3>
+                <span class="menu-card-price">149 kr</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== OM MALA ========== -->
+  <section class="about-section" id="om">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text fade-in">
+          <span class="section-tag">Vores historie</span>
+          <h2 class="section-title">Ægte smag fra Sichuan</h2>
+          <p>Hos MáLà Food handler det om én ting: autenticitet. Vores nudler trækkes i hånden hver eneste dag. Vores krydderier importeres direkte fra Sichuan-provinsen — de samme peberkorn og chili, der har defineret regionens køkken i århundreder.</p>
+          <p>MáLà (麻辣) betyder bogstaveligt "bedøvende og krydret" — den karakteristiske fornemmelse fra Sichuan-peberkorn kombineret med tørret chili. Det er ikke bare varme, det er dybde, kompleksitet og en smag du ikke finder andre steder i København.</p>
+          <p>Fra crispy dumplings til dampende nudelsupper — hvert element er lavet fra bunden med respekt for traditionen.</p>
+        </div>
+        <div class="about-image fade-in">
+          <img src="https://imageproxy.wolt.com/assets/698b3a3b6934b09ea5bff034" alt="Håndlavede nudler i MáLà Foods køkken" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FIND OS ========== -->
+  <section class="location-section" id="find-os">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">Find os</span>
+        <h2 class="section-title">Besøg os på Frederiksberg</h2>
+      </div>
+
+      <div class="location-grid">
+        <div class="location-card fade-in">
+          <div class="location-card-img">
+            <img src="https://imageproxy.wolt.com/assets/698b3a3b6934b09ea5bff034" alt="MáLà Food restaurant udefra" loading="lazy">
+          </div>
+          <div class="location-card-body">
+            <h3>MáLà Food</h3>
+            <ul class="location-details">
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span>Vesterbrogade 187 st th<br>1800 Frederiksberg C</span>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <a href="tel:+4523858888">+45 23 85 88 88</a>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                <a href="mailto:info@malafood.dk">info@malafood.dk</a>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                <div class="hours">
+                  <span>Man – Fre: 16:40 – 20:40</span>
+                  <span>Lør – Søn: 12:10 – 20:40</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="location-map fade-in">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2250.0!2d12.5221!3d55.6711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652537b0f7f9b0d%3A0x0!2sVesterbrogade+187%2C+1800+Frederiksberg!5e0!3m2!1sda!2sdk!4v1700000000000"
+            width="100%"
+            height="100%"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="MáLà Food på Google Maps">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ANMELDELSER ========== -->
+  <section class="reviews-section" id="anmeldelser">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">Anmeldelser</span>
+        <h2 class="section-title">Hvad vores gæster siger</h2>
+        <p class="section-desc">Baseret på 20+ anmeldelser på Wolt · 8.2/10</p>
+      </div>
+
+      <!-- NB: Placeholder-reviews — erstat med ægte reviews -->
+      <div class="reviews-grid">
+        <div class="review-card fade-in">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"De bedste dumplings jeg har fået i København. Virkelig autentisk smag — man kan mærke det er lavet fra bunden."</p>
+          <span class="review-author">— Maria K.</span>
+        </div>
+        <div class="review-card fade-in">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Dandan-nudlerne er fantastiske. Perfekt balance mellem det bedøvende og det krydrede. Kommer igen og igen."</p>
+          <span class="review-author">— Thomas L.</span>
+        </div>
+        <div class="review-card fade-in">
+          <div class="review-stars">★★★★☆</div>
+          <p class="review-text">"Hurtig levering via Wolt og maden var stadig dampende varm. Beef Brisket Noodle Soup er en must-try."</p>
+          <span class="review-author">— Sara N.</span>
+        </div>
+        <div class="review-card fade-in">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Endelig ægte Sichuan i Frederiksberg-området. Crispy Dumplings og MáLà Wontons er perfekte til deling."</p>
+          <span class="review-author">— Anders J.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FINAL CTA ========== -->
+  <section class="cta-section">
+    <div class="cta-bg">
+      <img src="https://mealomedia.azureedge.net/media/28077/img_3706.jpg?quality=70&mode=crop&width=1110" alt="" loading="lazy">
+    </div>
+    <div class="cta-overlay"></div>
+    <div class="cta-content fade-in">
+      <h2 class="cta-title">Sulten efter ægte Sichuan?</h2>
+      <p class="cta-subtitle">Bestil takeaway eller ring direkte til os</p>
+      <div class="cta-buttons">
+        <a href="https://wolt.com/da/dnk/copenhagen/restaurant/mala-food" target="_blank" rel="noopener" class="btn btn-primary">Bestil på Wolt</a>
+        <a href="tel:+4523858888" class="btn btn-outline">Ring og bestil</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="footer-logo">MáLà</a>
+          <p class="footer-desc">Autentisk Sichuan-restaurant på Frederiksberg. Håndlavede nudler, dumplings og baos — hver dag.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Kontakt</h4>
+          <ul>
+            <li>Vesterbrogade 187 st th</li>
+            <li>1800 Frederiksberg C</li>
+            <li><a href="tel:+4523858888">+45 23 85 88 88</a></li>
+            <li><a href="mailto:info@malafood.dk">info@malafood.dk</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Åbningstider</h4>
+          <ul>
+            <li>Man – Fre: 16:40 – 20:40</li>
+            <li>Lør – Søn: 12:10 – 20:40</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Følg os</h4>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/malafood.dk/" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="20" x="2" y="2" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="https://wolt.com/da/dnk/copenhagen/restaurant/mala-food" target="_blank" rel="noopener" aria-label="Wolt">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15l-1.5-1.5L13 12 9.5 8.5 11 7l5 5-5 5z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 MáLà Food. Alle rettigheder forbeholdes.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== FLOATING MOBILE CTA ========== -->
+  <div class="floating-cta" id="floatingCta">
+    <a href="tel:+4523858888" class="btn btn-primary btn-floating">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      Ring &amp; bestil
+    </a>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- Site JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>
