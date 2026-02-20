@@ -109,4 +109,37 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  /* ---------- Set default booking date to today ---------- */
+  const dateInput = document.getElementById('bookDate');
+  if (dateInput) {
+    const today = new Date().toISOString().split('T')[0];
+    dateInput.value = today;
+    dateInput.min = today;
+  }
+
 });
+
+/* ---------- Booking Modal ---------- */
+function openBooking() {
+  document.getElementById('bookingModal').classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeBooking() {
+  document.getElementById('bookingModal').classList.remove('active');
+  document.body.style.overflow = '';
+}
+
+document.getElementById('bookingModal').addEventListener('click', (e) => {
+  if (e.target === e.currentTarget) closeBooking();
+});
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') closeBooking();
+});
+
+let guestCount = 2;
+function updateGuests(delta) {
+  guestCount = Math.max(1, Math.min(12, guestCount + delta));
+  document.getElementById('guestCount').textContent = guestCount;
+}
